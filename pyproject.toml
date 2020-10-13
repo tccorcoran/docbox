@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "docbox"
+author = "Thomas Corcoran"
+author-email = "chasecorcoran@gmail.com"
+description-file="README.md"
+classifiers = ["License :: OSI Approved :: MIT License"]
+
+[tool.flit.metadata.requires-extra]
+dev = [
+  "pytest",
+  "pre-commit"
+]

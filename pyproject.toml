@@ -6,6 +6,7 @@ build-backend = "flit_core.buildapi"
 module = "docbox"
 author = "Thomas Corcoran"
 author-email = "chasecorcoran@gmail.com"
+home-page = "https://github.com/tccorcoran/docbox"
 description-file="README.md"
 classifiers = ["License :: OSI Approved :: MIT License"]
 
@@ -14,3 +15,6 @@ dev = [
   "pytest",
   "pre-commit"
 ]
+
+[tool.isort]
+profile = "black"
